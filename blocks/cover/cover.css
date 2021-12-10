@@ -1,0 +1,59 @@
+.cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url("../../image/cover__background.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 740px;
+    position: relative;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 12px;
+}
+
+.cover::before {
+    content: "";
+    background-color: #2a2c2f;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-transition: opacity 0.6s ease;
+    -o-transition: opacity 0.6s ease;
+    transition: opacity 0.6s ease;
+}
+
+.cover:hover::before {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1152px) {
+    .cover {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .cover {
+        min-height: 480px;
+        margin-top: 17px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .cover {
+        min-height: 320px;
+    }
+}
