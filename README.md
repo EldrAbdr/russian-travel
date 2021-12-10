@@ -21,7 +21,7 @@
 * Transition
 * BEM
 
+**Ссылка на GitHub Pages**
 
-
-* [Ссылка на GitHub Pages](https://eldrabdr.github.io/russian-travel/)
+* [RUSSIAN TRAVEL](https://eldrabdr.github.io/russian-travel/)
 
