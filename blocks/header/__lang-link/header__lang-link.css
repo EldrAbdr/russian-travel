@@ -7,8 +7,8 @@
     padding-bottom: 5px;
 }
 
-.header__lang-link:first-of-type {
-    text-decoration: underline;
+.header__lang-link:hover {
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 544px) {
