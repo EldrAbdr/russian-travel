@@ -1,10 +1,4 @@
 .place__link {
     color: white;
-    -webkit-transition: opacity 0.6s;
-    transition: opacity 0.6s;
-}
-
-.place__link:hover {
-    opacity: 0.5;
 }
 
